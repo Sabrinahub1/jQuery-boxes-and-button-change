@@ -1,49 +1,80 @@
-body{
+/* .flex-container {
+    display: flex;
+  }
+.flex-container > div {
+    margin:  0 40px 0px 40px;
+    padding: 50px;
+    font-size:30px;
+    width: 30%;
+    height: 300px;
+  } */
+  
+  
+  .headings{
+    margin: 50px 0 60px 0;
     text-align: center;
-    color: #000;
-    font-size: 18px;
+  }
 
-}
-h3{
-    text-decoration: underline;
-}
-
+  h2{
+    text-align:center ;
+      padding: 30px;
+      margin: 20px;
+  }
 
 .boxesRow{
-    height: 300px;
+  height: 300px;
 }
 
-.boxesRow div{
-    height: 100%
-}
 .firstDiv{
-    background: red;
-    border : 3px solid #000
+  background: red;
+  border:3px solid #0000;
+  margin: 25px;
 }
 
 .firstDivNew{
-    background: pink;
-    border: 5px solid orange;
-    
-
+  background: magenta;
+  border:3px solid green;
 }
+
 .secondDiv{
-    background: blue;
-    border: 3px dashed yellow;
+  background: blue;
+  border: 3px dashed yellow;
+  margin:  25px;
 }
 
-
-
+.secondDivNew{
+  background: orange;
+  border: 3px dashed rgb(105, 173, 190);
+}
 
 .thirdDiv{
-    background: limegreen;
-    border: 3px solid purple;
-} 
+  background: limegreen;
+  border: 3px solid purple;
+  margin: 25px;
+}
+
+.thirdDivNew{
+  background: rgb(255, 255, 255);
+  border: 3px solid orangered
+}
+
+.changeAllColors{
+  background: black;
+  border: 10px dotted rgb(95, 160, 111);
+}
 
 .changeTitle{
-    color: blue
-    text-decoration: underline;
+  color:blue;
+  text-decoration: underline;
 }
+
 .rowBtns span{
-    background: #e5E
+  background: #e5e5e5;
+  margin-bottom:10px;
+  padding: 5px 5px;
+  border-spacing:0 15px;
+}
+
+.resetAllBtn a{
+  color: #000000;
 }
