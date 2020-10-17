@@ -2,7 +2,7 @@
 // CHANGE BUTTONS
 
 $(".changeBtn1").click(function(){
-    console.log("click is working Btn 1");
+   console.log("click is working Btn 1");
         $(".firstDiv").css("background","magenta");
         $(".firstDiv").css("border-color","green");
 });
